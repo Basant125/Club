@@ -1,6 +1,6 @@
 import React from "react";
 
-import home from "../picture/Home/Home.png";
+import { Abouts } from "../picture/picture";
 
 // css
 
@@ -9,10 +9,10 @@ import classes from "./About.module.css";
 const About = () => {
   return (
     <div className={classes.about}>
+      +
       <div className={classes.about_heading}>
         <h2>About us</h2>
       </div>
-
       <div className={classes.about1}>
         <h4 className={classes.about1_heading}>Who we are</h4>
         <div className={classes.underline}></div>
@@ -30,19 +30,19 @@ const About = () => {
         <div className={classes.features}>
           <div className={classes.feature}>
             <div className={classes.feature_img}>
-              <img src={home} alt="#" />
+              <img src={Abouts.about1} alt="#" />
             </div>
             <h4>Your perfect workspace</h4>
           </div>
           <div className={classes.feature}>
             <div className={classes.feature_img}>
-              <img src={home} alt="#" />
+              <img src={Abouts.about2} alt="#" />
             </div>
             <h4>Work with flexible team</h4>
           </div>
           <div className={classes.feature}>
             <div className={classes.feature_img}>
-              <img src={home} alt="#" />
+              <img src={Abouts.about3} alt="#" />
             </div>
             <h4>Group experince</h4>
           </div>

@@ -25,7 +25,7 @@ const Navbar = (props) => {
               SignUp
             </a>
           </div>
-        </div> 
+        </div>
         <div className={classes.navbar_underline}></div>
         <div className={classes.navbar_body}>
           <ul className={classes.navbar_links}>
@@ -33,10 +33,10 @@ const Navbar = (props) => {
               <a href="#">Home</a>
             </li>
             <li className={classes.navbar_link}>
-            <a href="#">About</a>
+              <a href="#">About</a>
             </li>
             <li className={classes.navbar_link}>
-            <a href="#">Club</a>
+              <a href="#">Club</a>
             </li>
             <li className={classes.navbar_link}>
               <a href="#">Live Updates</a>
