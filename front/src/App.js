@@ -10,6 +10,9 @@ import About from "./components/About/About ";
 import Gallery from "./components/Gallery/Gallery";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/Footer";
+import CLUB from "./components/CLUB/club";
+
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -21,6 +24,10 @@ function App() {
       <Gallery />
       <Contact />
       <Footer />
+
+      <Routes>
+        <Route exact to="./components/CLUB/club" component={CLUB} />
+      </Routes>
     </>
   );
 }
